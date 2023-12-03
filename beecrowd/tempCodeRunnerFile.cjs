@@ -1,0 +1,1 @@
+palavras = parseInt(lines[0]);

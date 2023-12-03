@@ -1,0 +1,12 @@
+function menor_raio_conduite(r1, r2) {
+    return r1 + r2;
+}
+
+// Número de casos de teste
+const t = parseInt(lines[0]);
+
+// Processamento e saída para cada caso de teste
+for (let i = 1; i <= t; i++) {
+    const [r1, r2] = lines[i].split(' ').map(Number);
+    const resultado = menor_raio_conduite(r1, r2);
+    console.log(resultado);
